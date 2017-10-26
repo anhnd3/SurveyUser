@@ -6,7 +6,7 @@ const passport = require('passport');
 const bodyParser = require('body-parser');
 const keys = require('./config/keys');
 require('./models/User');
-require('./models/Survey')
+require('./models/Survey');
 require('./services/passport');
 
 mongoose.Promise = require('bluebird');
